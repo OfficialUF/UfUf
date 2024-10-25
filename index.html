@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt Företag - Anteckningsböcker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mitt Företag</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#products">Produkter</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Välkommen till Mitt Företag</h2>
+        <p>Upptäck våra högkvalitativa anteckningsböcker för alla behov.</p>
+        <a href="#products" class="button">Se våra produkter</a>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products" class="products">
+        <h2>Våra Produkter</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="notebook1.jpg" alt="Anteckningsbok 1">
+                <h3>Anteckningsbok 1</h3>
+                <p>Pris: 199 SEK</p>
+            </div>
+            <div class="product">
+                <img src="notebook2.jpg" alt="Anteckningsbok 2">
+                <h3>Anteckningsbok 2</h3>
+                <p>Pris: 249 SEK</p>
+            </div>
+            <div class="product">
+                <img src="notebook3.jpg" alt="Anteckningsbok 3">
+                <h3>Anteckningsbok 3</h3>
+                <p>Pris: 299 SEK</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Kontakta Oss</h2>
+        <p>Har du frågor? Tveka inte att kontakta oss via formuläret nedan.</p>
+        <form action="#">
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Skicka</button>
+        </form>
+    </section>
+
+</body>
+</html>
